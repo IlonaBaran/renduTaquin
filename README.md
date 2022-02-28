@@ -17,12 +17,16 @@ Ilona Baran, Ziad Boukbir et Hugo Reveneau
 #### Date
 Décembre 2021 - Février 2022
 #### URL du site
+https://hugoreveneau2.alwaysdata.net
 #### Le Projet et ses objectifs:
-L’objectif de ce mini-projet est de réaliser un «taquin» : son interface de jeu avec son web service associé,  de documenter un drag and drop efficace pour pousser les rangées de pions et de développer l’interface de construction d’un jeu de quinze imagettes (avec son web service associé).
+L’objectif de ce mini-projet est de réaliser un «taquin» : 
++ son interface de jeu avec son web service associé
++ de documenter un drag and drop efficace pour pousser les rangées de pions 
++ de développer l’interface de construction d’un jeu de quinze imagettes (avec son web service associé).
 #### Langages utilisés
 + HTML5, CSS3
 + JavaScript, AJAX
-+ PHP, MySQL
++ PHP, PostgresSQL
 #### Responsive ?
 Non, il n'est pas responsive.   
 
@@ -50,23 +54,39 @@ Le site web étant également stocké sur le même serveur que la base de donné
 
 
 # Création
+### Accès à la page web
+Pour accéder à la page web, il vous suffit de rentrer l’URL suivante dans n’importe quel navigateur web, de préférence Mozilla Firefox car c’est le navigateur utilisé pour son développement.   
+### URL 
+https://hugoreveneau2.alwaysdata.net/creation   
+Une fois que l’utilisateur y accède, un message explicatif relate les principales fonctionnalités.
 
-METTRE LA PARTIE DU HUGO : manuel d'utilisation
-Bravo, vous allez bientôt pouvoir commencer à jouer !
+#### Description de la page web et des commandes
+L’objectif de cette page est de proposer aux utilisateurs de créer eux même leurs propres jeux d’imagettes 4x4 ensuite disponibles pour jouer à un jeu de taquin (cf. Projets de Ilona Baran et Ziad Boukbir). Ces imagettes sont créées à partir des fonds de carte du Géoportail. Deux fonds sont actuellement disponibles : L’ortho-image mondiale et le plan mondial. L’utilisateur peut alors sélectionner une emprise souhaitée sur une carte choisie et envoyer les 16 imagettes dans une base de données, ensuite utilisée pour le jeu de taquin.   
+
+## Bravo, vous allez bientôt pouvoir commencer à jouer !
 
 ***
 
 # Consignes
-Vous devez d'abord rentrer un pseudo. Celui-ci doit faire entre 1 et 20 caractères.
-Ensuite, séléctionnez un jeu parmi la liste proposée. Validez ! Vous pouvez commencer le taquin.
+#### Accès à la page web
+Pour accéder à la page web, il vous suffit de rentrer l’URL suivante dans n’importe quel navigateur web, de préférence Mozilla Firefox car c’est le navigateur utilisé pour son développement.
+#### URL 
+Webmapping : Taquin (hugoreveneau2.alwaysdata.net)
 
-Si la disposition des tuiles ne vous satisfaits pas, vous pouvez re-mélanger les images grâce au bouton sur la droite "nouveau tirage".
+#### Description de la page web et des commandes
+Cette interface permet aux utilisateurs de jouer à un jeu de taquin, qu’ils auront pu créer préalablement grâce à une autre interface web (cf. Projet de Hugo Reveneau).
 
-Vous pourrez voir le nombre de coups que vous avez mis à réaliser le jeu. Une fois le jeu fini, vous avez également la possibilité de voir votre position dans le classement si vous êtes suffisament bien classé ! 
+### Présentation de l'interface de jeu
+Une courte explication du projet et les consignes générales sont présentées à gauche. On y retrouve également le classement des meilleurs joueurs : la position, le pseudonyme ainsi que le nombre de coups des 5 meilleurs joueurs sont affichés.
+A gauche, se situe l’ensemble des interactions possibles que vous pouvez faire. Vous devez entrer un pseudonyme dont le nombre de caractères doit être compris entre 1 et 20, sélectionner le jeu auquel vous voulez jouer et valider pour que le jeu s’affiche.
+Vous avez également la possibilité de de mélanger le jeu autant de fois que vous le souhaitez avant de commencer à jouer grâce au bouton “nouveau tirage”.
+A titre indicatif, le nombre de coups que vous avez déjà réalisé ainsi que le nombre de tuiles bien positionnées sont affichés.
 
-Vous pouvez aisément changer de page grâce à un bouton, situé lui aussi sur la droite.
-
-Bon jeu !
+Vous pouvez aisément naviguer entre l’interface de création des jeux de données et de l’interface de jeu grâce à un lien, situé sur la gauche dans le bloc des explications et consignes.
+## Bon jeu !
+ 
+ 
+NB : Le tirage de l’emplacement des imagettes est aléatoire. Certaines configurations de jeu sont impossibles à résoudre et peuvent quand même être proposées. Vous ne pourrez donc pas résoudre le taquin, nous nous excusons pour cette gêne, et essayons de la résoudre le plus rapidement possible. 
 
 
 # Sources
